@@ -85,6 +85,8 @@ fig2 = px.line(
     labels={"value": "Field (T)"},
 )
 fig2.show()
+magpy.show(cube, sensor, backend="plotly")
+
 ```
 
 ```{code-cell} ipython3
